@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <title>Universe Petshop</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/icons/style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="nav container lateral">
+            <div class="left grid">
+                <a href="#"> <img src="assets/logo.png" alt="logo UniversePetshop"> </a>
+                <div class="menu">
+                    <ul class="grid">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="toggle icon-menu"></div>
+                <div class="toggle icon-x"></div>
+                <a href="#" class="btn-contatar">Contatar
+                    <span class="icon-arrow-right"></span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container grid">
+                <div class="text grid">
+                    <h2 class="title">UNIVERSE PETSHOP</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quas enim. Blanditiis, similique, dicta corporis ea quos error laudantium, molestias aperiam vero numquam fugit sint dolor quidem accusantium quo fugiat?</p>
+                    <a href="#" class="button">Ver Seviço</a>
+                </div>
+
+                <div class="image grid">
+                    <img src="assets/cachorro.png" alt="imagem do toto">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            
+            <div class="container grid">
+                <div class="cards grid">
+                    <!-- Card 1 -->
+                    <div class="card left card-equal">
+                        <h4>Castração</h4>
+                        <div class="image">
+                            <img src="assets/castracao.png" alt="castracao">
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card card-diff">
+                        <h4>Banho e Tosa</h4>
+                        <div class="image">
+                            <img src="assets/shampoo.png" alt="shampoo">
+                        </div>
+                        <p>Nós oferecemos um cuidado cheio de carinho e amor</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card right card-equal">
+                        <h4>Podrutos</h4>
+                        <div class="image">
+                            <img src="assets/produtos.png" alt="produtos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container grid">
+                <div class="text">
+                    <h2 class="title">QUEM SOMOS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, a quis neque obcaecati facilis vero ut quidem ullam sint eaque omnis recusandae nam rem eligendi similique mollitia odio accusantium vel?</p>
+                </div>
+                <div class="img">
+                    <div class="img-gato">
+                    <img src="assets/gato.png" alt="gatinho">
+                    </div>
+                    <a href="#" class="button">Ver Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container grid">
+                <div class="content">
+                    <h2 class="tlite">ENTRE EM CONTATO</h2>
+                    <form class="form" onsubmit="validForm()">
+                        <label for="name">Nome</label>
+                        <input type="text" class="input" id="name">
+
+                        <label for="phone">Telefone</label>
+                        <input type="text" class="input" id="phone">
+
+                        <label for="e-mail">E-mail</label>
+                        <input type="text" class="input" id="e-mail">
+
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" cols="22" rows="10"></textarea>
+
+                        <button type="submit" class="button">Enviar</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+         <div class="container grid">
+             <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14944.79540642077!2d-54.636095135538426!3d-20.5390432321465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e574a3065a2d%3A0xf0a0454ee713e780!2sAcademia%20Combat%203!5e0!3m2!1spt-BR!2sbr!4v1650592520453!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+
+             <div class="social">
+                 <h5>
+                     <span class="icon icon-phone"></span>
+                     <p>(00) 0 0000-0000</p>
+                 </h5>
+
+                 <h5>
+                    <span class="icon icon-whatsapp"></span>
+                    <p>(00) 0 0000-0000</p>
+                </h5>
+
+                <h5>
+                    <span class="icon icon-instagram"></span>
+                    <p>@UniversePetshop</p>
+                </h5>
+             </div>
+         </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
