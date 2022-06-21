@@ -141,42 +141,6 @@ nav .btn-contatar{
 
 /* MOSTRAR O MENU HAMBURGUER */
 
-nav.lateral .menu{
-    opacity:1;
-    visibility:visible;
-    background:#fff9f9;
-    height:100vh;
-    width:100vw;
-    position: fixed;
-    top:0;
-    left:0;
-    display:grid;
-    place-content:center;
-}
-
-nav.lateral .menu ul{
-    display:block;
-}
-
-/* ABRIR MENU */
-
-.toggle{
-    font-size:2rem;
-    color: var(--color-secondary);
-}
-
-nav .icon-x{
-    visibility:hidden;
-    opacity:0;
-    position:absolute;
-    right: 1.5rem;
-}
-
-nav.lateral .icon-x{
-    visibility:visible;
-    opacity:1;
-}
-
 /* INICIO */
 
 #home .text{
